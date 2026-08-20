@@ -39,48 +39,21 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-- **[PlanSwift](https://www.planswift.com/)**  
-  Construction takeoff and estimating platform for measuring digital plans, calculating quantities, building assemblies, and connecting takeoff quantities with estimating workflows. PlanSwift now also offers AI-powered Takeoff Boost capabilities for measuring, counting, and scaling plans. 
-
-
-- **[STACK](https://www.stackct.com/)**  
-  Cloud-based construction takeoff and estimating platform providing digital plan measurement, quantity takeoff, estimating, collaboration, and bid-management capabilities.
-
-
-- **[Bluebeam Revu](https://www.bluebeam.com/)**  
-  PDF markup and collaboration platform widely used in construction for drawing review, measurement, quantity takeoff, annotations, custom tools, and document workflows.
-
-
-- **[On-Screen Takeoff](https://www.constructconnect.com/products/on-screen-takeoff)**  
-  Construction estimating and takeoff software for digital plan measurement, area/linear/count takeoffs, assemblies, and estimating workflows.
-
-
-- **[ConstructConnect Takeoff](https://www.constructconnect.com/products/takeoff)**  
-  Construction takeoff platform integrated with ConstructConnect's broader preconstruction ecosystem, supporting digital plan measurement and quantity extraction.
-
-
-- **[CostX](https://www.rib-software.com/en/products/rib-costx)**  
-  Professional quantity takeoff and estimating platform supporting 2D/3D measurement, BIM quantities, estimating, cost planning, and revision management.
-
-
-- **[Cubit](https://www.buildsoft.com.au/cubit)**  
-  Construction estimating and takeoff software supporting digital takeoff, estimating, BOQs, costing, and integration with construction workflows.
-
-
-- **[Buildxact](https://www.buildxact.com/)**  
-  Cloud-based construction estimating and project-management platform providing digital takeoff, estimating, quoting, budgeting, and project workflows.
-
-
-- **[FastDUCT](https://www.fastduct.com/)**  
-  Specialized estimating and takeoff software focused on HVAC ductwork, sheet-metal, mechanical, and related construction scopes.
-
-
-- **[Active Takeoff](https://www.activetakeoff.com/)**  
-  Digital construction takeoff software for measuring areas, lengths, counts, and other quantities from electronic construction plans.
-
-
-- **[Togal.AI](https://www.togal.ai/)**  
+| Platform | Description | Pricing (Starting Tier) | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[PlanSwift](https://www.planswift.com/)** | Construction takeoff and estimating platform for digital plan measurement, assemblies, and Takeoff Boost AI features. | $1,749 / year per license | 14-day free trial (full desktop version access, no credit card required) |
+| **[STACK](https://www.stackct.com/)** | Cloud-based construction takeoff and estimating platform with digital plan measurement, collaboration, and bid management. | $249 / user / month (Premium tier, billed annually; Pro tier starts at $299 / user / month) | Free forever plan (up to 2 concurrent projects, 10 takeoffs per project, 7-day project lifespan) |
+| **[Bluebeam Revu](https://www.bluebeam.com/)** | PDF markup, drawing management, and takeoff software with Studio collaboration and measurement tools. | $260 / user / year (Basics tier; Core tier starts at $330 / user / year) | 14-day free trial (full access to Max tier, Studio, desktop, web, mobile; no credit card required) |
+| **[On-Screen Takeoff](https://www.constructconnect.com/products/on-screen-takeoff)** | 2D takeoff and estimating software by ConstructConnect for area, linear, and count quantity takeoffs. | ~$1,850 / year per single-user license | 14-day free trial (full desktop OST evaluation; free single-page web preview for Takeoff Boost AI) |
+| **[ConstructConnect Takeoff](https://www.constructconnect.com/products/takeoff)** | Cloud-integrated takeoff tool within ConstructConnect's preconstruction network for plan measurement. | ~$1,000 / month (starter plans / preconstruction suite subscriptions with annual agreement) | Guided proof-of-value demo on user's own plans; free single-page evaluation on web via Takeoff Boost |
+| **[CostX](https://www.rib-software.com/en/products/rib-costx)** | Professional 2D/3D BIM quantity takeoff, estimating, and cost-planning platform by RIB Software. | ~$4,500 per license (starting professional tier investment) | Free 12-month educational license for verified students; free live customized guided product demo |
+| **[Cubit](https://www.buildsoft.com.au/cubit)** | Natural estimating and digital takeoff software with interactive sheet links and BOQ generation by Buildsoft. | $167 AUD + GST / user / month (Cubit Estimating Standard, billed annually) | 14-day free trial (full access to Cubit Estimating software features) |
+| **[Buildxact](https://www.buildxact.com/)** | Cloud takeoff, estimating, and project management platform designed for residential builders and trades. | $199 / month (Foundation tier; $0/month on Go plan) | Free "Go" plan (includes 5 complimentary AI estimating and proposal credits); 14-day free trial of full platform |
+| **[FastDUCT](https://www.fastduct.com/)** | Specialized HVAC ductwork, sheet-metal, and mechanical estimating and takeoff software by FastEST. | $250 / month (standalone lease option; or $4,995 one-time purchase) | 60-day money-back guarantee period for risk-free evaluation; free live guided demo |
+| **[Active Takeoff](https://www.activetakeoff.com/)** | Fast digital plan measurement and quantity takeoff tool supporting PDF, CAD, and image plans. | $59 / user / month (or $698 - $898 one-time perpetual license) | 14-day free trial (full software functionality, no credit card required) |
+| **[Togal.AI](https://www.togal.ai/)** | AI-powered automated takeoff software detecting rooms, walls, objects, areas, and drawing schedules. | $199 / user / month (Essential plan; Growth plan starts at $299 / user / month billed annually) | 7-day free trial via eTakeoff Dimension integration with unlimited drawings; free custom live demo |
+| **[Autodesk Takeoff](https://construction.autodesk.com/products/autodesk-takeoff/)** | Cloud-based 2D sheet and 3D BIM model takeoff solution within Autodesk Construction Cloud (ACC). | $1,290 / user / year (~$108 / month billed annually) | 30-day free trial (full 2D and 3D model quantification and sheet access, no credit card required) |
+| **[The EDGE](https://www.estimatingedge.com/)** | Commercial trade takeoff and estimating software by Foundation Software for roofing, drywall, and finishes. | ~$12,000 upfront implementation & license package (~$300+/month seat equivalent) | Free customized live demo with company blueprints; 1-month trial for EDGE On Site mobile tracking app |  
 Recommended Open-Source Combinations
 
 Basic PDF Takeoff
