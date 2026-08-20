@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%" style="background:#090d16; border-radius: 12px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bgGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#090d16" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="laserGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="takeoffPoly" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.1" />
+    </linearGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.8" />
+      <circle cx="40" cy="40" r="1" fill="#334155" />
+    </pattern>
+
+    <pattern id="gridSmall" width="10" height="10" patternUnits="userSpaceOnUse">
+      <path d="M 10 0 L 0 0 0 10" fill="none" stroke="#1e293b" stroke-width="0.25" opacity="0.6"/>
+    </pattern>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      @keyframes scan {
+        0% { transform: translateX(0px); opacity: 0; }
+        15% { opacity: 0.8; }
+        85% { opacity: 0.8; }
+        100% { transform: translateX(1200px); opacity: 0; }
+      }
+      @keyframes pulseNode {
+        0%, 100% { r: 5px; opacity: 1; filter: drop-shadow(0 0 4px #38bdf8); }
+        50% { r: 8px; opacity: 0.7; filter: drop-shadow(0 0 10px #818cf8); }
+      }
+      @keyframes dashMove {
+        to { stroke-dashoffset: -40; }
+      }
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-6px); }
+      }
+      @keyframes radarSweep {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      .scanner-beam {
+        animation: scan 7s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+      }
+      .takeoff-point {
+        animation: pulseNode 3s ease-in-out infinite;
+      }
+      .takeoff-line {
+        stroke-dasharray: 6, 6;
+        animation: dashMove 2.5s linear infinite;
+      }
+      .floating-tag {
+        animation: floatSlow 4s ease-in-out infinite;
+      }
+      .radar {
+        transform-origin: 1050px 180px;
+        animation: radarSweep 10s linear infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" fill="url(#bgGlow)" rx="12" />
+  
+  <!-- Architectural Grids -->
+  <rect width="1200" height="360" fill="url(#gridSmall)" rx="12" />
+  <rect width="1200" height="360" fill="url(#grid)" rx="12" />
+
+  <!-- Blueprint Floorplan Geometry & Takeoff Polygons (Right Side Art) -->
+  <g opacity="0.85" transform="translate(100, 0)">
+    <!-- Room Takeoff Area 1 -->
+    <polygon points="760,60 980,60 980,180 880,180 880,240 760,240" fill="url(#takeoffPoly)" stroke="#38bdf8" stroke-width="1.8" />
+    
+    <!-- Room Takeoff Area 2 (Adjoining Zone) -->
+    <polygon points="980,60 1100,60 1100,200 980,200" fill="rgba(129, 140, 248, 0.12)" stroke="#818cf8" stroke-width="1.5" stroke-dasharray="4,4" />
+
+    <!-- Measurement Dimension Lines -->
+    <!-- Width Dimension -->
+    <line x1="760" y1="45" x2="980" y2="45" stroke="#38bdf8" stroke-width="1.2" />
+    <line x1="760" y1="40" x2="760" y2="50" stroke="#38bdf8" stroke-width="1.2" />
+    <line x1="980" y1="40" x2="980" y2="50" stroke="#38bdf8" stroke-width="1.2" />
+    <text x="870" y="38" fill="#38bdf8" font-size="11" font-weight="600" text-anchor="middle" letter-spacing="0.5">32&apos;-6&quot; [9.90m]</text>
+
+    <!-- Height Dimension -->
+    <line x1="745" y1="60" x2="745" y2="240" stroke="#38bdf8" stroke-width="1.2" />
+    <line x1="740" y1="60" x2="750" y2="60" stroke="#38bdf8" stroke-width="1.2" />
+    <line x1="740" y1="240" x2="750" y2="240" stroke="#38bdf8" stroke-width="1.2" />
+    <text x="735" y="155" fill="#38bdf8" font-size="11" font-weight="600" text-anchor="end" letter-spacing="0.5">24&apos;-0&quot;</text>
+
+    <!-- Linear Measurement Polyline Path (Duct / Wall Linear Takeoff) -->
+    <polyline points="780,270 880,270 880,310 1060,310" fill="none" stroke="#f59e0b" stroke-width="2.5" class="takeoff-line" />
+    
+    <!-- Takeoff Vertices / Snapping Anchors -->
+    <circle cx="760" cy="60" r="5" fill="#38bdf8" class="takeoff-point" />
+    <circle cx="980" cy="60" r="5" fill="#38bdf8" class="takeoff-point" />
+    <circle cx="980" cy="180" r="5" fill="#38bdf8" class="takeoff-point" />
+    <circle cx="880" cy="180" r="5" fill="#38bdf8" class="takeoff-point" />
+    <circle cx="880" cy="240" r="5" fill="#38bdf8" class="takeoff-point" />
+    <circle cx="760" cy="240" r="5" fill="#38bdf8" class="takeoff-point" />
+    
+    <circle cx="780" cy="270" r="4" fill="#f59e0b" />
+    <circle cx="1060" cy="310" r="4" fill="#f59e0b" />
+
+    <!-- AI Symbol Detections (Door / Fixture Count Takeoffs) -->
+    <!-- Door Symbol 1 -->
+    <path d="M 880,180 A 30,30 0 0,0 850,210" fill="none" stroke="#34d399" stroke-width="1.5" />
+    <line x1="880" y1="180" x2="880" y2="210" stroke="#34d399" stroke-width="1.5" />
+    <rect x="835" y="165" width="60" height="55" fill="none" stroke="#34d399" stroke-width="1" stroke-dasharray="2,2" />
+    <text x="865" y="160" fill="#34d399" font-size="9" font-weight="700" text-anchor="middle">DOOR_D01 [AI 99%]</text>
+
+    <!-- Fixture Callout Badge 1 -->
+    <g class="floating-tag" transform="translate(800, 110)">
+      <rect width="145" height="38" rx="6" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2" filter="url(#subtleGlow)" />
+      <text x="12" y="16" fill="#94a3b8" font-size="9" font-weight="600" text-transform="uppercase" letter-spacing="0.5">ROOM AREA TAKEOFF</text>
+      <text x="12" y="30" fill="#38bdf8" font-size="12" font-weight="700">780.00 SQ FT (72.5 m²)</text>
+    </g>
+
+    <!-- Fixture Callout Badge 2 -->
+    <g class="floating-tag" transform="translate(930, 265)">
+      <rect width="130" height="32" rx="6" fill="#0f172a" stroke="#f59e0b" stroke-width="1.2" />
+      <text x="10" y="14" fill="#94a3b8" font-size="8" font-weight="600">LINEAR TAKEOFF</text>
+      <text x="10" y="26" fill="#f59e0b" font-size="11" font-weight="700">128.5 LF (39.2 m)</text>
+    </g>
+  </g>
+
+  <!-- Animated Scanning Laser Line -->
+  <g class="scanner-beam">
+    <rect x="0" y="0" width="3" height="360" fill="url(#laserGrad)" filter="url(#glow)" />
+    <line x1="0" y1="0" x2="0" y2="360" stroke="#38bdf8" stroke-width="2" />
+  </g>
+
+  <!-- Main Left Content / Branding -->
+  <g transform="translate(60, 50)">
+    <!-- Category Badge -->
+    <g transform="translate(0, 0)">
+      <rect width="260" height="28" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <circle cx="14" cy="14" r="4" fill="#38bdf8" />
+      <text x="26" y="18" fill="#94a3b8" font-size="11" font-weight="700" letter-spacing="1">CURATED AWESOME ECOSYSTEM</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="75" font-size="40" font-weight="900" fill="#ffffff" letter-spacing="-0.5">
+      Awesome Construction
+    </text>
+    <text x="0" y="125" font-size="44" font-weight="900" fill="url(#primaryGrad)" letter-spacing="-0.5" filter="url(#subtleGlow)">
+      Takeoff &amp; Estimating
+    </text>
+
+    <!-- Subtitle / Tagline -->
+    <text x="0" y="165" font-size="15" font-weight="400" fill="#94a3b8" letter-spacing="0.2">
+      SaaS Platforms, Open-Source Engines, CAD/BIM Quantity Extraction,
+    </text>
+    <text x="0" y="188" font-size="15" font-weight="400" fill="#94a3b8" letter-spacing="0.2">
+      AI Blueprint Analysis, Computer Vision, OCR &amp; Preconstruction Workflows
+    </text>
+
+    <!-- Feature Pills -->
+    <g transform="translate(0, 220)">
+      <!-- Pill 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="135" height="28" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-width="0.8" opacity="0.9"/>
+        <text x="10" y="18" fill="#38bdf8" font-size="11" font-weight="600">📐 PDF &amp; CAD Takeoff</text>
+      </g>
+      <!-- Pill 2 -->
+      <g transform="translate(145, 0)">
+        <rect width="135" height="28" rx="6" fill="#1e293b" stroke="#818cf8" stroke-width="0.8" opacity="0.9"/>
+        <text x="10" y="18" fill="#818cf8" font-size="11" font-weight="600">🏢 5D BIM Quantities</text>
+      </g>
+      <!-- Pill 3 -->
+      <g transform="translate(290, 0)">
+        <rect width="135" height="28" rx="6" fill="#1e293b" stroke="#34d399" stroke-width="0.8" opacity="0.9"/>
+        <text x="10" y="18" fill="#34d399" font-size="11" font-weight="600">🤖 AI Computer Vision</text>
+      </g>
+      <!-- Pill 4 -->
+      <g transform="translate(435, 0)">
+        <rect width="155" height="28" rx="6" fill="#1e293b" stroke="#f59e0b" stroke-width="0.8" opacity="0.9"/>
+        <text x="10" y="18" fill="#f59e0b" font-size="11" font-weight="600">📊 BOQ &amp; Cost Estimating</text>
+      </g>
+    </g>
+  </g>
+</svg>
