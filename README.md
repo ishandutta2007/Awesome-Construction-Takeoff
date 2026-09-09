@@ -149,6 +149,9 @@ Curated open-source projects, engines, libraries, and tools for building custom 
 * **[Ladybug](https://github.com/Ladybug-tools/ladybug)** [![GitHub stars](https://img.shields.io/github/stars/Ladybug-tools/ladybug?style=social&color=white)](https://github.com/Ladybug-tools/ladybug/stargazers)  
   Python environmental analysis library for building geometry, surface area calculations, sun/shadow analysis, and thermal zoning takeoff.
 
+* **[OpenTakeoff](https://github.com/Kentucky-ai/opentakeoff)** [![GitHub stars](https://img.shields.io/github/stars/Kentucky-ai/opentakeoff?style=social&color=white)](https://github.com/Kentucky-ai/opentakeoff/stargazers)  
+  Browser-based construction takeoff engine (Apache-2.0) for PDF plan sets: scale calibration, one-click room area, base and transition derivation, materials list, Excel and marked-PDF export. Also ships as an MCP server (`opentakeoff-mcp`) so AI agents can run and audit takeoffs against the same geometry code.
+
 * **[PDF Takeoff](https://github.com/elstruck/pdf-takeoff)** [![GitHub stars](https://img.shields.io/github/stars/elstruck/pdf-takeoff?style=social&color=white)](https://github.com/elstruck/pdf-takeoff/stargazers)  
   Lightweight open-source web application for measuring distances and polygon areas on construction PDF drawings.
 
