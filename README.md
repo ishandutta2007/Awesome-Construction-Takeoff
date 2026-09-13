@@ -152,6 +152,9 @@ Curated open-source projects, engines, libraries, and tools for building custom 
 * **[OpenTakeoff](https://github.com/Kentucky-ai/opentakeoff)** [![GitHub stars](https://img.shields.io/github/stars/Kentucky-ai/opentakeoff?style=social&color=white)](https://github.com/Kentucky-ai/opentakeoff/stargazers)  
   Browser-based construction takeoff engine (Apache-2.0) for PDF plan sets: scale calibration, one-click room area, base and transition derivation, materials list, Excel and marked-PDF export. Also ships as an MCP server (`opentakeoff-mcp`) so AI agents can run and audit takeoffs against the same geometry code.
 
+* **[BidWright](https://github.com/braedonsaunders/bidwright)** [![GitHub stars](https://img.shields.io/github/stars/braedonsaunders/bidwright?style=social&color=white)](https://github.com/braedonsaunders/bidwright/stargazers)  
+  Open-source construction estimating platform with 2D/3D/PDF/BIM/point-cloud takeoff, pricing, scheduling, and quotes (AGPL-3.0).
+
 * **[PDF Takeoff](https://github.com/elstruck/pdf-takeoff)** [![GitHub stars](https://img.shields.io/github/stars/elstruck/pdf-takeoff?style=social&color=white)](https://github.com/elstruck/pdf-takeoff/stargazers)  
   Lightweight open-source web application for measuring distances and polygon areas on construction PDF drawings.
 
