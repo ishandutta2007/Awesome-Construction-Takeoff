@@ -42,6 +42,7 @@ Modern takeoff workflows combine:
 - [🧩 Recommended Open-Source Stacks](#-recommended-open-source-stacks)
 - [🧱 Construction Takeoff Building Blocks](#-construction-takeoff-building-blocks)
 - [📚 Essential Takeoff Concepts](#-essential-takeoff-concepts)
+- [📚 Buyer Guides & Comparisons](#-buyer-guides--comparisons)
 - [📈 Star History](#-star-history)
 - [🤝 How to Contribute](#-how-to-contribute)
 - [⚖️ Disclaimer](#️-disclaimer)
@@ -226,6 +227,13 @@ Combine these modular building blocks to construct specialized takeoff and estim
 * **Revision Delta**: Quantifying the net difference in material counts between original drawings and addendum revisions.
 
 ---
+
+
+## 📚 Buyer Guides & Comparisons
+
+Independent resources for evaluating construction / field-service platforms (not SaaS products themselves):
+
+- [FieldServiceScout](https://www.fieldservicescout.com/best/hvac-software) — Free, vendor-neutral comparisons of Jobber, Housecall Pro, ServiceTitan peers for trade shops (features + modeled true cost). Not FieldScout/fieldscout.io.
 
 ## 📈 Star History
 
