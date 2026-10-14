@@ -67,6 +67,7 @@ Below is a curated comparison of leading commercial takeoff and estimating softw
 | **[Cubit](https://www.buildsoft.com.au/cubit)** | **~$20M Revenue** *(Buildsoft Pty Ltd)* | Natural estimating and digital takeoff software with interactive sheet links and automated BOQ generation. | $167 AUD + GST / user / month (Cubit Estimating Standard, billed annually) | 14-day free trial (full access to Cubit Estimating software features) |
 | **[FastDUCT](https://www.fastduct.com/)** | **~$8M Revenue** *(FastEST, Inc.)* | Specialized HVAC ductwork, sheet-metal, and mechanical takeoff and estimating application. | $250 / month (standalone lease option; or $4,995 one-time purchase) | 60-day money-back guarantee period for risk-free evaluation; free live guided demo |
 | **[Active Takeoff](https://www.activetakeoff.com/)** | **~$3M Revenue** *(Quoter Plan Inc.)* | Fast digital plan measurement and quantity takeoff tool supporting PDF, CAD, and image plan files. | $59 / user / month (or $698 - $898 one-time perpetual license) | 14-day free trial (full software functionality, no credit card required) |
+| **[Ask Donnie](https://donnie4i.com/)** | **Private / sole proprietor** *(Rippy Productions)* | AI takeoff and estimating app for iPhone, iPad and web: scan or import a plan PDF, pick the trade and get a priced estimate, plus building-code answers cited to the edition adopted at your ZIP code. | $29 / month (Foreman, web; Homeowner plan $8 / month) | Free Apprentice plan ($5 starter wallet, no card required; documents carry an Ask Donnie watermark) |
 
 ---
 
