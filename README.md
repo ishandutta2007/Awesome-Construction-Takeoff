@@ -158,6 +158,9 @@ Curated open-source projects, engines, libraries, and tools for building custom 
 * **[PDF Takeoff](https://github.com/elstruck/pdf-takeoff)** [![GitHub stars](https://img.shields.io/github/stars/elstruck/pdf-takeoff?style=social&color=white)](https://github.com/elstruck/pdf-takeoff/stargazers)  
   Lightweight open-source web application for measuring distances and polygon areas on construction PDF drawings.
 
+* **[pdf2takeoff](https://github.com/ajflow/pdf2takeoff)** [![GitHub stars](https://img.shields.io/github/stars/ajflow/pdf2takeoff?style=social&color=white)](https://github.com/ajflow/pdf2takeoff/stargazers)  
+  Browser-based, fully client-side PDF takeoff tool (Apache-2.0): scale calibration with OCR auto-read from printed dimensions, length/area/volume/count tools with formula columns, click-to-count symbol scan (classical CV, optional in-browser ONNX detector), dynamic room-area fill, multi-scale viewports, revision compare, and markups saved back into the PDF as standard annotations. Ships a headless CLI and MCP server for AI-agent takeoffs, and publishes its own deterministic benchmark (ScaledDrawingBench) with committed results, a run ledger, CI correctness gates, and external benchmark runs.
+
 ---
 
 ## 🧩 Recommended Open-Source Stacks
